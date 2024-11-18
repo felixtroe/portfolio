@@ -1,8 +1,11 @@
 ---
-Logo: image/leaf_256x256.png
-Tagline: My portfolio.
+Logo: assets/img/test.jpg
+Tagline: Student
 Social:
+    - title: Link till min github.
+      url: https://github.com/felixtroe/portfolio
+      icon:  fab fa-github
     - title: Link till sidans github repo.
       url: https://github.com/dbwebb-se/design-v3
-      icon: github
+      icon: fas fa-leaf
 ---

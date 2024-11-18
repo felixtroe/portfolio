@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  
+  h1 {
+    font-weight: 200;
+  }
+    
+  a {
+    text-decoration: none;
+    color: #333;
+    letter-spacing: 2px;
+    padding-right: 3rem;
+    font-family: Garamond;
+  }
+}
+
+.nav {
+  margin-right: 10em;
+  margin-left: 5em;
+  margin-top: -3em;
+  
+  a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+    font-family: Garamond;
+    margin: 2em;
+  }
+
+}

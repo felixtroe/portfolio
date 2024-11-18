@@ -1,0 +1,29 @@
+/*@mixin font-spacing{
+    font-size: 1.4em;
+    line-height: 1.4;
+    margin-bottom: 1.96rem;
+    letter-spacing: 1px;
+    margin: 1.96rem auto;
+
+}
+
+.old-fashioned{
+    @include font-spacing;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+}
+
+.modern{
+    @include font-spacing;
+    font-family: Helvetica, sans-serif;
+    color: #222;
+
+}
+
+.worst-ever{
+    @include font-spacing;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+}
+*/
