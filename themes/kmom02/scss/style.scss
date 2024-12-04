@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');@import '../../shared/fontawesome/scss/fontawesome';
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Signika:wght@300..700&display=swap');
+@import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
 @import '../../shared/fontawesome/scss/solid';
@@ -16,5 +17,6 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'footer';
 @import 'header';
 @import 'img';
+@import 'technology';
 
 /* @import 'test'; */

@@ -1,6 +1,8 @@
 .header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
 }
 
 .site-header {
@@ -14,24 +16,28 @@
     
   a {
     text-decoration: none;
-    color: #333;
+    color: $main-text-color;
     letter-spacing: 2px;
     padding-right: 3rem;
-    font-family: Garamond;
+    font-family: 'signika';
   }
+
 }
 
 .nav {
-  margin-right: 10em;
-  margin-left: 5em;
-  margin-top: -3em;
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em 0;
+    list-style: none;
+  }
   
   a {
     font-size: 1rem;
     text-decoration: none;
-    color: #333;
+    color: $main-text-color;
     font-size: 1.2em;
-    font-family: Garamond;
+    font-family: 'quicksand';
     margin: 2em;
   }
 

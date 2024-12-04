@@ -6,11 +6,7 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  background-color: #eee;
-}
-
-.main {
-  flex: 1 0 auto;
+  background-color: $main-background-color;
 }
 
 .header,
@@ -21,6 +17,11 @@ body {
 
 .main {
   max-width: 64rem;
-  padding: 2rem;
   margin: 0 auto;
+  flex: 1 0 auto;
+  overflow-wrap: break-word;
+}
+
+.container-table {
+  overflow: auto;
 }

@@ -15,4 +15,4 @@ Vad jag gillar med att syssla på min fritid är bland annat schack, träna och 
 
 Vi syns och hörs!
 
-![me](%assets_url%/img/me1.jpg)
+![me](%assets_url%/img/me1.jpg){.round-image}

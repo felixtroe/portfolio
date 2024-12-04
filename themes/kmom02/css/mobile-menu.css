@@ -2,14 +2,6 @@
     overflow-y: hidden !important;
     transition: height 0.5s ease-in !important;
 }
-
-.nav ul {
-    display: flex;
-    justify-content: flex-end;
-    padding: 1em 0;
-    list-style: none;
-}
-
 .nav ul li {
     padding: 0 1em;
 }
@@ -22,7 +14,23 @@
     display: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1096px) {
+    
+    .nav ul{
+        flex-direction: column;
+    }
+    .nav ul li {
+        margin-bottom: 0.5em;
+    }
+}
+
+@media (max-width: 768px) {
+    .main{
+        width: 60%;
+    }
+    .main.technology {
+        width: 100%;
+    }
     .site-header{
         flex-direction: column !important;
     }
@@ -31,17 +39,6 @@
     }
     
     .title{
-        text-align: center;
-    }
-    
-    .nav ul {
-        flex-direction: column;
-        padding-bottom: 1em;
-    }
-
-    .nav ul li {
-        display: flex;
-        flex-direction: column;
         text-align: center;
     }
 
@@ -58,6 +55,22 @@
         line-height: 2em;
         text-align: center;
         cursor: pointer;
-        float: center;
+        padding: 0;
     }
+    .landingpage h1{
+        grid-column: span 2 !important;   
+    }
+    .logo{
+        width: 200px;
+        height: 200px;
+      
+    }
+    
+}
+
+@media (max-width: 516px){
+    .landingpage h1{
+        grid-column: span 1 !important;   
+    }
+    
 }

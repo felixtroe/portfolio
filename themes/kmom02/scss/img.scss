@@ -1,12 +1,16 @@
-p img {
+@mixin img_settings {
   display: block;
   margin: 0 auto;
-  border-radius: 50%;
+  height: auto;
   max-width: 100%;
   height: auto;
 }
 
-.logo img {
-  max-width: 100%;
-  height: auto;
+.img-site {
+  @include img_settings;
+}
+
+.round-image {
+  border-radius: 50%;
+  @include img_settings;
 }
